@@ -26,7 +26,7 @@ ENV HOME=/headless \
     INST_SCRIPTS=/headless/install \
     NO_VNC_HOME=/headless/noVNC \
     DEBIAN_FRONTEND=noninteractive \
-    VNC_COL_DEPTH=24 \
+    VNC_COL_DEPTH=16 \
     VNC_RESOLUTION=1024x768 \
     VNC_PW=123456 \
     VNC_VIEW_ONLY=false
@@ -63,6 +63,10 @@ RUN $INST_SCRIPTS/set_user_permission.sh $STARTUPDIR $HOME
 
 # Switch to root user to install additional software
 USER 0
+
+## Install a gedit
+RUN yum install -y gedit \
+    && yum clean all
 
 ENTRYPOINT ["/dockerstartup/vnc_startup.sh"]
 CMD ["--wait"]
