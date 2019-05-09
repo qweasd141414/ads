@@ -14,7 +14,7 @@ Each Docker image is installed with the following components:
 ![Docker VNC Desktop access via HTML page](.pics/vnc_container_view.png)
 
 ## Build Status
-`master`:  [![Build Status MASTER](https://travis-ci.org/ConSol/docker-headless-vnc-container.svg?branch=master)](https://travis-ci.org/ConSol/docker-headless-vnc-container) `dev`: [![Build Status DEV](https://travis-ci.org/ConSol/docker-headless-vnc-container.svg?branch=dev)](https://travis-ci.org/ConSol/docker-headless-vnc-container)
+`master`:  [![Build Status MASTER](https://travis-ci.org/computera9191/ubuntu.svg?branch=master)](https://travis-ci.org/computera9191/ubuntu) `dev`: [![Build Status DEV](https://travis-ci.org/computera9191/ubuntu.svg?branch=dev)](https://travis-ci.org/computera9191/ubuntu)
 
 ## Current provided OS & UI sessions:
 * `consol/centos-xfce-vnc`: __Centos7 with `Xfce4` UI session__ 
