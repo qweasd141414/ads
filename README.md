@@ -23,7 +23,7 @@ Each Docker image is installed with the following components:
 
 * `consol/ubuntu-xfce-vnc`: __Ubuntu with `Xfce4` UI session__
 
-  [![](https://images.microbadger.com/badges/version/consol/ubuntu-xfce-vnc.svg)](https://hub.docker.com/r/computera1313/as/) [![](https://images.microbadger.com/badges/image/consol/ubuntu-xfce-vnc.svg)](http://microbadger.com/images/consol/ubuntu-xfce-vnc)
+  [![](https://images.microbadger.com/badges/version/consol/ubuntu-xfce-vnc.svg)](https://hub.docker.com/r/computera1313/as/) [![](https://images.microbadger.com/badges/image/consol/ubuntu-xfce-vnc.svg)](https://microbadger.com/images/computera1313/as)
 
 * `consol/centos-icewm-vnc`: __Centos7 with `IceWM` UI session__ 
 
