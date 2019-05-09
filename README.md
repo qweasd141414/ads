@@ -21,7 +21,7 @@ Each Docker image is installed with the following components:
 
   [![](https://images.microbadger.com/badges/version/computera1313/as.svg)](https://hub.docker.com/r/computera1313/as/) [![](https://images.microbadger.com/badges/image/computera1313/as.svg)](http://microbadger.com/images/computera1313/as)
 
-* `consol/ubuntu-xfce-vnc`: __Ubuntu with `Xfce4` UI session__
+* `computera1313/as`: __Ubuntu with `Xfce4` UI session__
 
   [![](https://images.microbadger.com/badges/version/consol/ubuntu-xfce-vnc.svg)](https://hub.docker.com/r/computera1313/as/) [![](https://images.microbadger.com/badges/image/consol/ubuntu-xfce-vnc.svg)](https://microbadger.com/images/computera1313/as)
 
